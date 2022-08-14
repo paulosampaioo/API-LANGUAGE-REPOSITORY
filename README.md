@@ -1,8 +1,10 @@
+
 # API-LANGUAGE-REPOSITORY
 <h2> API-Repositório-Linguagens </h2>
 <a align="center">
 <a href="#sobre">Sobre</a> *
 <a href="#funcionalidades">Funcionalidadess</a> *
+<a href="#pre-requesito">Pré-requesitos</a> *
 <a href="#tecnologias">Tecnologias</a> *
 
 # Sobre
@@ -25,10 +27,19 @@ por isso só deixarei o enuciado acima.
 <p> [x]PROCURAR LINGUAGEM</p>
 <p> [x]SELECIONAR LINGUAGEM</p>
 <p> [x]FAVORITAR LINGUAGEM</p>
+
+
 # Tecnologias
-<p> ou</p>
+<p>react/vit/maerial ui</p>
+
+Instalação das dependências
+
+npm install
+execução da aplicação
+npm run dev
 
 <h1 align="center">
 <img alt/>
 
-</h1>
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/108671627/184553286-294d36bc-c6e1-475b-83a1-2268e1a087df.gif)
+
