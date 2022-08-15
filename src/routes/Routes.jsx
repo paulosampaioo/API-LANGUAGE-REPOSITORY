@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes as RoutesDom } from "react-router-dom";
+import { Footer } from "../components/footer/Footer";
 import { NavBar } from "../components/NavBar/NavBar";
 import { Favorites } from "../pages/Favorites";
 import Home from "../pages/Home";
@@ -14,6 +15,7 @@ export const Routes = () => {
           <Route path="/favoritos" element={<Favorites />} />
         </RoutesDom>
       </BrowserRouter>
+      
     </>
   );
 };

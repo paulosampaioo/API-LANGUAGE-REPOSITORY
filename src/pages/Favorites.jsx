@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { Footer } from "../components/footer/Footer";
 import { ToggleButton } from "../components/ToggleButton/ToggleButton";
 import { useValues } from "../hooks/useValues";
 
@@ -15,6 +16,7 @@ export const Favorites = () => {
           return <ToggleButton item={item} handleSelected={handleSelected} />;
         })}
       </Box>
+      <Footer/>
     </>
   );
 };
